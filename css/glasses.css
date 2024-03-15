@@ -1,0 +1,459 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* padding: 32px 0; */
+}
+
+
+.navbar{
+    
+    background: #aa0601;
+    margin-bottom: 96px;
+    /* border: 3px solid #000000; */
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;/*0是上下邊距，auto 則指的是左右邊距*/
+    max-width: 1296px;
+    height: 100%;
+
+}
+.navbar-brand{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+}
+
+.logo{
+    width: 80px;
+    height: 100%; /* 或者根據需要設置合適的高度 */
+}
+.navbox .nav-list1 {
+     display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center; /* 垂直置中 */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 64px;
+    
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    justify-content: space-between;
+    /* align-items: center; */
+    top: 25px;
+    /* left: 1116px; */
+    /* width: 80px; */
+    /* height: 30px; */
+    text-align: left;
+    display: flex;
+    /* padding: 32px 0; */
+}
+
+
+/* <!--content -----------content --> */
+
+.content{
+    /* background-color: beige; */
+    color: black;
+    margin: 0 auto;/*0是上下邊距，auto 則指的是左右邊距*/
+    max-width: 1296px;
+    padding-bottom: 80px;
+    
+}
+
+.loca span{
+    border-left: 8px solid #9F1213;
+    font-size: 48px;
+}
+.main{
+    display: flex;
+}
+
+.main li{
+    font-size: 24px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    list-style: none;
+}
+#selshop{
+    background: #FFFFFF;
+    width: 304px;
+    height: 38px;
+    margin-top: 30px;
+    margin-left: 16px;
+    /* margin-bottom: 36px; */
+    border: 1px solid #CED4DA;
+    border-radius: 3px;
+
+    
+}
+#selshop option{
+    font-size: 18px;
+    margin-left: 12px;
+}
+.med{
+    display: flex;
+    
+}
+/* .pic{
+    border: 1px solid #00000020;
+} */
+.pic img{
+    width: 526px;
+    height: 224px;
+
+}
+.shopname{
+    border-bottom: 1px solid #00000020;
+    /* margin-top: 8px;
+    margin-bottom: 8px; */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #00000020;
+    
+}
+.shopname span{
+    font-size: 24px;
+    margin-left: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.info-list{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    height: 138px;
+    justify-content: center;
+    border: 1px solid #00000020;
+    padding-left: 24px;
+}
+
+.info li{
+    /* justify-content:end; */
+    font-size: 20px;
+    color:#212529;
+    line-height: 1.5;
+    
+    
+}
+
+.info-list i{
+    padding-right: 10px;
+    
+}
+
+.map{
+    margin-left: 24px;
+    list-style: none;
+}
+
+
+/* <!--footer -----------footer --> */
+
+.footer{
+    /* display: block; */
+    background: #aa0601;
+    padding-top: 60.02px;
+    /* justify-content: space-between; */
+    
+}
+.fcontainer{
+    display: flex;
+    max-width: 1296px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.f-list ul{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    
+}
+/* .f-list li{
+    list-style: none;
+    gap: 24px;
+} */
+
+.f-link{
+    text-decoration: none;
+    margin-top: 100px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-top: 50px;
+    
+}
+
+.f-logo{
+    display: flex;
+    height: 48px;
+}
+
+.f-contact{
+    color: #FFFFFF;
+    font-size: 36px;
+    max-width: 1296px;
+    margin: 0 auto;
+    
+}
+
+.f-info{
+    
+    display:flex;
+    flex-direction: column;
+    color:#FFFFFF;
+    font-size: 36px;
+    line-height: 1.5;
+    border-bottom: 2px solid #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    
+    
+
+}
+.f-info li{
+    padding-left: 11px;
+
+}
+.tel, .email{
+    display: flex;
+    align-items: center;
+
+}
+
+.copy{
+    display: flex;
+    max-width: 1296px;
+    margin: 0 auto;
+    font-size: 16px;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 62px;
+    background-color: #aa0601;
+    color: #FFFFFF;
+
+}
+.served{
+    justify-content: space-between;
+}
+
+/* ------------------------ */
+
+/* RWD */
+
+/* 平板 */
+/* @media(min-width: 768px){
+    
+    
+    .navbar {
+        width:100%;
+       
+    }
+
+    .nav-menu{
+        flex-direction:wrap ;
+    }
+
+    
+
+} */
+
+
+/* 手機 */
+@media(max-width: 375px) {
+    .navbar {
+        max-width:100%;
+        margin-bottom: 40px;
+        
+    }
+    /* .navbox{
+        display: flex;
+        align-items: left;
+        justify-self: start;
+
+    } */
+    .navbar-brand{
+        padding-bottom: 15.5px ;
+        padding-top: 15.5px;
+        
+    }
+    .contain{
+        flex-direction: column;
+        
+    }
+    .img{
+        padding: 0px;
+
+    }
+    .nav-menu{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 0;
+        
+    }
+    .nav-menu li{
+        display: flex;
+        width: 50%;
+        background-color: #aa0601;
+        justify-content: center;
+        align-content: center;
+        border: 1px solid #FFFFFF;
+        padding:0;
+        padding: 15px 0;
+
+    }
+    .loca span{
+        border-left: 6px solid #9F1213;
+        font-size: 24px;
+        margin-left: 13px;
+    }
+    .main{
+        justify-content: center;
+    }
+    .main li{
+        font-size: 16px;
+        margin-top: 36px;
+        margin-bottom: 36px;
+        list-style: none;
+        /* padding-right: 8px; */
+        /* padding-left: 13px; */
+    }
+    
+    #selshop {
+        max-width: 276px;
+        font-size: 18px;
+        justify-content:left;
+        height: 38px;
+        
+    }
+    .med{
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .pic{
+        /* display: block;
+        justify-content: center; */
+        align-items: center;
+        padding-left: 15px;
+
+    }
+    .info list{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .pic img{
+        max-width: 348px;
+        padding: 0;
+    }
+    .map{
+        display:flex ;
+        justify-content: center;
+        margin-top: 24px;
+        margin-left: 13px;
+        margin-right: 13px;
+        margin-bottom: 64px;
+
+    }
+    .footer{
+        /* display: flex;
+        justify-content: center; */
+        font-size: 16px;
+        
+        
+    }
+    .fbox{
+        display: flex;
+    max-width: 375px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+        
+
+    }
+    .fcontainer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .f-logo{
+        width: 24px;
+        height: 24px;
+        align-self: start;
+        
+
+    }
+
+    .f-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-list{
+        display: none;
+    }
+    .f-contact i{
+        
+        font-size: 16px;
+    }
+
+    .f-info,.copy{
+        font-size: 16px;
+    }
+
+    .copy ,.served{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+       align-items: start;
+       
+       
+    }
+    .rights{
+        margin-bottom: 10px;
+    }
+    .served span{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+
+
+    
+
+
+    
+
+   
+}
+
+
