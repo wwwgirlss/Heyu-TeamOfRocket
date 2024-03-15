@@ -392,15 +392,13 @@ img {
         
         
     }
-    .fbox{
+    /* .fbox{
         display: flex;
-    max-width: 375px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
+        
+        justify-content: space-between;
         
 
-    }
+    } */
     .fcontainer{
         display: flex;
         flex-direction: column;
